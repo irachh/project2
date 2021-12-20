@@ -1,0 +1,92 @@
+html {
+box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-image: url("../images/bg.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.header {
+  padding-top: 46px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.menu ul{
+  display: flex;
+  margin-left: 34px;
+}
+
+.menu li + li {
+  margin-left: 25px;
+}
+
+.menu a {
+  font-size: 24px;
+  line-height: 28px;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.item {
+  justify-content: flex-start;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 141px;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 46px;
+  max-width: 674px;
+  height: 84px;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slick-dots li + li {
+  margin-left: 20px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  outline: transparent;
+}
+
